@@ -1,0 +1,210 @@
+body{
+    font-family: "Montserrat";
+    text-align: center;
+  
+} 
+ p {
+  
+    color:#8f8f8f;  
+} 
+.big-heading{
+    font-family: 'Montserrat'; 
+    font-size: 3.5rem;
+     line-height: 1.5; 
+      font-weight: 900;
+      padding-bottom: 1.5rem;
+}
+.price-text{
+    font-family: 'Montserrat';
+    font-weight:700;
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+.feature-title{
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: 900;
+    /* text-align: center; */
+}
+/* TITLE */
+#title{
+   
+     text-align: left;
+}
+.container-fluid{
+    padding:3% 15% 7%;
+}
+/* NAVBAR */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family:"Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family: "Montserrat-Light";
+    font-size:1.2rem ;
+}
+/* DOWNLOAD BUTTON */
+
+.download-button{
+     margin:5% 3% 5% 0 ; 
+   
+}
+.iPhone {
+    width:22%;
+    height: 90%;
+    transform: rotate(25deg);
+    position: absolute;
+    right:25%;
+   
+}
+/* SECTIONS */
+.colored-section{
+    background-color:#ff4c68;
+    color:white;
+
+
+}
+.white-section{
+    background-color: #fff;
+
+}
+
+
+/* Features Section */
+
+#features{
+   
+padding:7% 15%;
+
+position: relative;
+z-index: 0.5;
+
+
+}
+.perks{
+    font-family: 'Montserrat'; 
+    font-size: 2rem;
+     line-height: 1.5; 
+      font-weight: 900;
+     
+
+}
+.icon {
+    color:#ef8172;
+  
+    /* Changing the size of the logo */
+    font-size: 70px; 
+    margin-bottom:1rem;
+   
+  
+    
+}
+/* Seperate pseudo class to add hover effect */
+.icon:hover{
+  color:#ff4c68;
+ 
+}
+.feature-box{
+  
+    
+    padding:4.5%;
+}
+
+
+/* TESTIMONIALS */
+#testimonials{
+
+    background-color:#ef8172;
+
+
+    }
+    .testimonial-image{
+        width:10%;
+        border-radius: 100%;
+         margin: 20px; /* To make the imabge a little away from the text */
+    }
+    /* PRESS */
+    #press{
+        background-color:#ef8172;
+       
+         padding-bottom: 3%;
+    }
+    .carousel-item{
+        padding :7% 15%;
+    }
+ /* PRICING */
+ #pricing{
+     padding:100px;
+ }
+ .pricing-column{
+     padding:2% 3%;
+     
+   
+ }
+ .pricing-btn{
+
+    width:100%;
+ }
+  
+/* https://www.figma.com/file/yY9W6l7X2NBbakTAqbLhK0/Livent-Events-Website-(Community)?node-id=0%3A1 */
+#cta{
+    padding:7% 15%;
+  
+ 
+}
+.love{
+   padding-left: 350px;
+    width:55%;
+    height:55%;
+
+}
+
+/* FOOTER */
+#footer{
+    
+    padding:7% 15%;
+  
+}
+.twitter{
+    padding: 0 1%;
+}
+.facebook{
+    padding: 0 1%;
+}
+.envelope{
+    padding: 0 1%;
+}
+.instagram{
+    padding: 0 1%;
+}
+.copyright{
+    padding-top: 1%;
+}
+/* MEDIA QUERIES */
+@media(max-width:1028px){
+
+    #title{
+    
+    text-align :center;
+    
+    }
+    
+    .iPhone{
+    
+    position:static; 
+    
+    transform:rotate(0);
+    height:110%;
+    width:45%;
+    
+    }}
+
+    /* https://www.figma.com/file/RldvsJGYpaZBDHUVbaPGwe/Untitled?node-id=1%3A5 */
